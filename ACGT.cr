@@ -19,6 +19,6 @@ def nucleotide_color(s)
 end
 
 while l = ARGF.gets(nil)
-   print nucleotide_color(l)
+   nucleotide_color(l)
 end
 
